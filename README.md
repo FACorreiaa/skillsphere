@@ -342,3 +342,4 @@ These use NLP to create dense vector representations (embeddings) of skills, cap
 
 ### Recommendations for SkillSphere
 Start with Cosine Similarity on vectorized profiles—it's balanced for your Go backend (use gonum). Add embedding-based for semantics as you scale. Test with synthetic data: e.g., 100 users, measure precision/recall. For real-time, use WebSockets to push matches. Install gonum via `go get gonum.org/v1/gonum`. If you need full Gin integration examples or refinements, provide more specifics!# skillsphere
+# skillsphere
